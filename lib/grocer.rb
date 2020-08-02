@@ -1,6 +1,6 @@
 def find_item_by_name_in_collection(name, collection)
   grocery_shelf.map do |grocery_items|
-  grocery_shelf[:items] => grocery_shelf[:price] => # Implement me first!
+  # Implement me first!
   #
   # Consult README for inputs and outputs
 
