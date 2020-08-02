@@ -1,6 +1,11 @@
 def find_item_by_name_in_collection(name, collection)
-  grocery_shelf.map do |grocery_items|
-  # Implement me first!
+  index = 0
+
+  collection.each do|grocery_items|
+    if grocery_item[:item] == name
+      puts grocery_item
+    else
+      puts nil 
   #
   # Consult README for inputs and outputs
 
