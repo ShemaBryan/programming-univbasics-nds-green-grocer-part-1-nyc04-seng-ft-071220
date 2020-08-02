@@ -1,5 +1,5 @@
 def find_item_by_name_in_collection(name, collection)
-  grocery_shelf. # Implement me first!
+  grocery_shelf.map do | # Implement me first!
   #
   # Consult README for inputs and outputs
 
